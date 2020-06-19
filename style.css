@@ -2,11 +2,8 @@ body{
 font-family: 'Roboto', sans-serif;
 }
 
-.bg-dark{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbB1pU2gorRc-KjxLeIxunDdfWV6idxhKidV0rWSwe-lCKVyM_&usqp=CAU");
+.bg-img{
+  background-image: url("https://www.virtuallyboring.com/wp-content/uploads/2015/07/dark-grey-background-texture.jpg");
   min-height: 50vh;
-}
-
-.container-size{
-  min-height: 30vh;
+  background-size: cover;
 }
