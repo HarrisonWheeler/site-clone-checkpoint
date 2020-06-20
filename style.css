@@ -7,3 +7,13 @@ font-family: 'Roboto', sans-serif;
   min-height: 50vh;
   background-size: cover;
 }
+
+.floating-card{
+  margin-bottom: -45px;
+  margin-top: 50px;
+  /* position: absolute; */
+}
+
+.floating-card-relative{
+  position: relative;
+}
