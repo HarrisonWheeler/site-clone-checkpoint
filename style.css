@@ -11,13 +11,11 @@ font-family: 'Roboto', sans-serif;
 .floating-card{
   margin-bottom: -45px;
   margin-top: 50px;
-  /* position: absolute; */
 }
 
-.floating-card-relative{
-  position: relative;
+.emphasized-card{
+  margin-bottom: 0px;
+  margin-top: -15px;
 }
 
-.big-card{
-  
-}
+/* Add box shadow to bottom 3 cards */
