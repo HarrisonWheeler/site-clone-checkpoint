@@ -11,54 +11,42 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-  <!-- <style>
-    * {
-      outline: 1px solid red;
-    }
-
-    * {
-      height: 50px;
-    }
-  </style> -->
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
   <title>Site Clone Checkpoint</title>
 </head>
 
 <body>
+
   <header>
-    <div class="containter-fluid p-0">
-      <div class="row">
-        <div class="col-12">
-          <nav class="navbar navbar-light bg-success fixed-top">
-            <a class="navbar-brand text-light" href="#">Lorem Ipsum</a>
-          </nav>
-        </div>
-      </div>
-    </div>
+    <nav class="navbar navbar-light bg-success fixed-top">
+      <a class="navbar-brand text-light" href="#">Lorem Ipsum</a>
+      <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0010/5022/brand.gif?itok=Vi4yH-dW"
+        width="40" height="40" alt="">
+    </nav>
   </header>
+
   <main class="container-fluid p-0">
-    <section class="row bg-img align-items-center justify-content-center">
-      <div class="col-4">
-        <h6 class="text-light text-left pl-5">Subtle Heading</h6>
-        <div class="card mx-auto" style="width: 18rem;">Less Subtle Heading
+    <section class="row bg-img pb-5 pt-4">
+      <div class="col-md-4 col-sm-12 pt-5 d-flex">
+        <div class="card mx-auto" style="width: 18rem;">
           <div class="card-body">
-            <h6 class="card-subtitle mb-4 text-muted">NAME</h6>
-            <h6 class="card-subtitle mb-4 text-muted">PHONE</h6>
-            <h6 class="card-subtitle mb-4 text-muted">EMAIL</h6>
-            <p class="card-text text-muted">Message</p>
-            <button class="btn">Submit</button>
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
         </div>
       </div>
-      <div class="col-8 text-light order-1">
+      <div class="col-md-8 col-sm-0 d-flex text-light pt-5 justify-content-start">
         <h2>TEXT OVER AN IMAGE</h2>
-        <p>Sub text shows up here to tell you how awesome our services are</p>
       </div>
     </section>
     <section class="row bg-success">
-      <div class="col-md-6 col-sm-12 text-light text-left order-2 order-md-1 px-5 pt-5 pb-3">
+      <div class="col-md-6 col-sm-12 text-light text-left order-2 order-md-1 px-5 pt-5   pb-3">
         <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eaque doloribus adipisci obcaecati tempore
           repudiandae quidem illo ratione, nihil nisi, cumque aut eveniet culpa error voluptates itaque. Magni,
@@ -67,15 +55,28 @@
       <div class="col-md-6 col-sm-12 d-flex justify-content-center order-1 order-md-2">
         <div class="card floating-card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <ul style="list-style-type:none;">
+              <li>
+                <i class="fas fa-wrench"></i>
+              </li>
+              <li>
+                <i class="fas fa-car"></i>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+              </li>
+              <li>
+                <i class="fas fa-comments"></i>
+              </li>
+              <li>
+                <i class="fas fa-bolt"></i>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <section class="row text-center pt-5 pb-5">
+    <section class="row text-center pt-5">
       <div class="col-md-3 col-sm-12 mx-auto px-0">
         <img src="https://via.placeholder.com/200x350" class="img-fluid" alt="">
       </div>
@@ -96,9 +97,7 @@
         <button class="btn btn-success">More</button>
       </div>
     </section>
-    <!-- Add box shadow to bottom 3 cards -->
-    <!-- Look at padding between top card, and bottom of row above -->
-    <section class="row pb-5 pt-5">
+    <section class="row pb-5 pt-4">
       <div class="col-sm-12 col-md-4 pt-3 pb-3 d-flex order-2 order-sm3">
         <div class="card mx-auto" style="width: 18rem;">
           <div class="card-body">
@@ -110,7 +109,7 @@
       <div class="col-sm-12 col-md-4 pt-3 pb-3 d-flex order-1 order-sm-2">
         <div class="card mx-auto emphasized-card pt-3 pb-3" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
+            <h5 class="card-title">Emphasized Card</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
           </div>
         </div>
