@@ -8,6 +8,12 @@ font-family: 'Roboto', sans-serif;
   background-size: cover;
 }
 
+@media only screen and (max-width: 576px){
+  .hidden-on-mobile{
+    display: none;
+  }
+}
+
 .floating-card{
   margin-bottom: -45px;
   margin-top: 50px;
